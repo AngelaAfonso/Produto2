@@ -1,0 +1,296 @@
+body {
+  color: rgb(87, 0, 128);
+  font-family: Poppins;
+  height: 100%;
+  margin: 0 auto;
+  max-width: 1216px;
+}
+
+section {
+  display: grid;
+  grid-auto-flow: row;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.section-video>h2 {
+  margin-top: 10%;
+}
+
+.section-video>p {
+  margin-top: -1%;
+}
+
+.section-1 {
+  margin-top: 7%;
+}
+
+.section-1 img {
+  margin-top: -7%;
+}
+
+.section-2 {
+  margin-top: -7%;
+  margin-bottom: 10%;
+  padding: 70px;
+  /* Altere o margin-top para 0 para remover o espaço extra no topo */
+  display: grid;
+  grid-auto-flow: row;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.section-2 img {
+  margin-right: 5%;
+}
+
+
+.section-3 {
+  align-items: center;
+  justify-content: center;
+}
+
+.section-4 {
+  margin-top: 0%;
+  margin-bottom: 10%;
+  padding: 70px;
+  /* Altere o margin-top para 0 para remover o espaço extra no topo */
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+.section-4 img {
+  margin-left: 4%;
+}
+
+.section-5 {
+  margin-top: -15%;
+}
+
+.section-6>h2 {
+  margin-top: -8%;
+}
+
+.section-6>p {
+  margin-bottom: 8%;
+}
+
+section p {
+  font-size: 20px;
+  text-align: center;
+  margin-top: 20px;
+
+}
+
+section h1 {
+  text-align: center;
+  font-size: 40px;
+}
+
+section h2 {
+  text-align: center;
+  font-size: 30px;
+
+}
+
+section h3 {
+  color: gray;
+}
+
+section img {
+  max-width: 800px;
+  /* Garante que a imagem não ultrapasse a largura da coluna */
+  width: 700px;
+  display: block;
+  /* Use display: block; para evitar problemas de centralização */
+  margin-top: 0px;
+  border-radius: 20px;
+}
+
+footer {
+  background-color: rgb(131, 5, 190);
+  padding: 10px;
+  color: white;
+  text-align: center;
+}
+
+button {
+  padding: 30px 80px 30px 80px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  border-color: rgb(87, 0, 128);
+  color: rgb(87, 0, 128);
+  font-size: 20px;
+  background-color: rgb(255, 255, 255);
+}
+
+button:hover {
+  background-image: radial-gradient(circle farthest-corner at 10% 20%, rgb(131, 5, 190) 17.8%, rgb(168, 19, 237) 100.2%);
+  color: white;
+  transition: 0.5s;
+  transform: translateY(-7px);
+}
+
+video {
+  border-radius: 20px;
+  width: 800px;
+  display: block;
+  /* Use display: block; para evitar problemas de centralização */
+  margin: 0 auto;
+  /* Centralize horizontalmente usando margin:auto; */
+}
+
+#product {
+  margin-top: 100px;
+}
+
+#end {
+  margin: 100px 0px 100px 0px;
+}
+
+#button {
+  margin: 50px 0px 50px 0px;
+}
+
+#description {
+  text-align: center;
+}
+
+#description2 {
+  margin: 100px 0px 100px 0px;
+  font-size: 20px;
+  text-align: center;
+}
+
+#description_text {
+  display: grid;
+  grid-auto-flow: row;
+}
+#banner{
+  height: 80%;
+  width: 100%;
+  position: relative;
+}
+#description4{
+  position: relative;
+  margin-top: -200%;
+  color: white;
+}
+#image1{
+  margin-top: 100px;
+}
+
+@media screen and (max-width: 768px) {
+  section {
+    width: auto;
+    padding: 20px;
+  }
+
+  .section-2,
+  .section-3 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .section-2 img,
+  .section-3 img {
+    margin: 0;
+    max-width: 100%;
+  }
+
+  section p {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+
+  section h1 {
+    font-size: 28px;
+  }
+
+  section video {
+    width: 100%;
+    height: auto;
+  }
+
+  footer {
+    font-size: 12px;
+  }
+
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+  #product,
+  #end,
+  #button {
+    margin: 20px 0;
+  }
+
+  #description2 {
+    font-size: 16px;
+    margin: 20px 0;
+  }
+
+  #description3 {
+    font-size: 16px;
+    margin: 20px 0;
+  }
+  #image1{
+    margin-top: 100px;
+  }
+}
+@media screen and (max-width: 560px) {
+  #description2{
+    font-size: 10px;
+  }
+  .section-video{
+    font-size: 10px;
+  }
+  #description3{
+    font-size: 10px;
+  }
+  #image1{
+    margin-left: 10%;
+    margin-top: 20px;
+  }
+  #title{
+    font-size: 15px;
+  }
+  section img{
+    height: 400px;
+    width: 300px;
+  }
+  section h2{
+    font-size: 15px;
+  }
+  section p{
+    font-size: 8px;
+  }
+  footer p{
+    font-size: 8px;
+  }
+  .section-video video{
+    height: 200px;
+    width: 350px;
+  }
+  #banner{
+    height: 80%;
+    width: 100%;
+    position: relative;
+  }
+  #description4{
+    position: relative;
+    margin-top: -200%;
+    color: white;
+  }
+
+}
